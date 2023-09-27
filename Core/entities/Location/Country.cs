@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Core.entities;
+namespace Core.entities.Location;
 
 public class Country : BaseEntity
 {

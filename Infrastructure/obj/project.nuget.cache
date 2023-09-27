@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OjssdUVAcjWcYVm/9jpgVP7MOfLrC7/oRoJRLG+6ZPuFTcRwPBbzuazYHKukUp9li6ScHQ2VDCeUAquV3eFFvA==",
+  "dgSpecHash": "NX7qiPqhNWZQqYRvYV7Llc4D6wX2dvy24tRw2BMJF/mU8/t3gForyXUo79dPpQSD/D7bf9IDMbCAMVMb66wScw==",
   "success": true,
-  "projectFilePath": "d:\\Programacion\\Campus2023\\NetCore\\pharmacyinventory\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\Programacion\\Campus2023\\NetCore\\pharmacyinventory\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Home\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",

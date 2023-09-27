@@ -1,3 +1,7 @@
+using Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,7 +11,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<PharmaInvenContext>(options =>
+{
+    string newconnectionConfig = builder.Configuration.GetConnectionString("MysqlConnection");
+    options.UseMySql(newconnectionConfig, ServerVersion.AutoDetect(newconnectionConfig));
+});
+
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -23,3 +35,21 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
+
+/* 
+    Solucionar Error AddDbContext = Instalar el package EntityFrameworkCore en API
+dotnet add package Microsoft.EntityFrameworkCore
+
+ 
+    Crear la Migracion
+dotnet ef migrations add nombreMigracion --project ./Infrastructure/ --startup-project ./API/ --output-dir ./Data/Migrations
+
+
+    Actualizar la DB
+dotnet ef database update --project ./Infraestructure/ --startup-project ./API/ 
+*/
+
+
+/* Host 'DESKTOP-GQJ7FIE' is not allowed to connect to this MySQL server */

@@ -1,0 +1,11 @@
+D:\Programacion\Campus2023\NetCore\pharmacyinventory\Core\bin\Debug\net7.0\Core.deps.json
+D:\Programacion\Campus2023\NetCore\pharmacyinventory\Core\bin\Debug\net7.0\Core.dll
+D:\Programacion\Campus2023\NetCore\pharmacyinventory\Core\bin\Debug\net7.0\Core.pdb
+D:\Programacion\Campus2023\NetCore\pharmacyinventory\Core\obj\Debug\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programacion\Campus2023\NetCore\pharmacyinventory\Core\obj\Debug\net7.0\Core.AssemblyInfoInputs.cache
+D:\Programacion\Campus2023\NetCore\pharmacyinventory\Core\obj\Debug\net7.0\Core.AssemblyInfo.cs
+D:\Programacion\Campus2023\NetCore\pharmacyinventory\Core\obj\Debug\net7.0\Core.csproj.CoreCompileInputs.cache
+D:\Programacion\Campus2023\NetCore\pharmacyinventory\Core\obj\Debug\net7.0\Core.dll
+D:\Programacion\Campus2023\NetCore\pharmacyinventory\Core\obj\Debug\net7.0\refint\Core.dll
+D:\Programacion\Campus2023\NetCore\pharmacyinventory\Core\obj\Debug\net7.0\Core.pdb
+D:\Programacion\Campus2023\NetCore\pharmacyinventory\Core\obj\Debug\net7.0\ref\Core.dll
