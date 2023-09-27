@@ -13,8 +13,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<PharmaInvenContext>(options =>
 {
-    string newconnectionConfig = builder.Configuration.GetConnectionString("MysqlConnection");
-    options.UseMySql(newconnectionConfig, ServerVersion.AutoDetect(newconnectionConfig));
+    string connectionString = builder.Configuration.GetConnectionString("MysqlConnection");
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
 
 
@@ -48,7 +48,7 @@ dotnet ef migrations add nombreMigracion --project ./Infrastructure/ --startup-p
 
 
     Actualizar la DB
-dotnet ef database update --project ./Infraestructure/ --startup-project ./API/ 
+dotnet ef database update --project ./Infrastructure/ --startup-project ./API/ 
 */
 
 

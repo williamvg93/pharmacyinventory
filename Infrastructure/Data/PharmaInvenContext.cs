@@ -10,7 +10,7 @@ namespace Infrastructure.Data;
 
 public class PharmaInvenContext : DbContext
 {
-    public PharmaInvenContext(DbContextOptions<PharmaInvenContext> options) : base(options)
+    public PharmaInvenContext(DbContextOptions options) : base(options)
     {
     }
 
