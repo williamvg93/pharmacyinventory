@@ -39,17 +39,19 @@ app.Run();
 
 
 /* 
-    Solucionar Error AddDbContext = Instalar el package EntityFrameworkCore en API
+Solucionar Error AddDbContext = Instalar el package EntityFrameworkCore en API
 dotnet add package Microsoft.EntityFrameworkCore
 
- 
-    Crear la Migracion
+
+Crear la Migracion
 dotnet ef migrations add AddLocationEntiti --project ./Infrastructure/ --startup-project ./API/ --output-dir ./Data/Migrations
 
 
-    Actualizar la DB
+Actualizar la DB
 dotnet ef database update --project ./Infrastructure/ --startup-project ./API/ 
 */
 
 
 /* Host 'DESKTOP-GQJ7FIE' is not allowed to connect to this MySQL server */
+
+/*Repositorio AppTienda Jolver: https://github.com/trainingLeader/tiendacampus2023 */
