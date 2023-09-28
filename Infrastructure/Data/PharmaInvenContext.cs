@@ -2,9 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using Core.entities.Location;
 using System.Reflection;
+using Core.entities.Location;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace Infrastructure.Data;
 

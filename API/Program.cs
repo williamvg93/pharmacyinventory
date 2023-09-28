@@ -44,7 +44,7 @@ dotnet add package Microsoft.EntityFrameworkCore
 
  
     Crear la Migracion
-dotnet ef migrations add nombreMigracion --project ./Infrastructure/ --startup-project ./API/ --output-dir ./Data/Migrations
+dotnet ef migrations add AddLocationEntiti --project ./Infrastructure/ --startup-project ./API/ --output-dir ./Data/Migrations
 
 
     Actualizar la DB
