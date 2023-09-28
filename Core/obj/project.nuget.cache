@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/ynqwgnnmhTzaV2Vm240yDTHM9hGzhNA/mj7GmTspTPOEONPIp5AdWKtKfj4eHp1ADFf71tfkCWOoqUTS/DGdQ==",
+  "dgSpecHash": "6LeI2DcP66G6LbOogF4rUPx3tfvGPPdsiafShfScnsGAZ9/pPz2e1vccRMTHiPOm8uQQ02u2AoNA7vjO2baMwg==",
   "success": true,
-  "projectFilePath": "D:\\Programacion\\Campus2023\\NetCore\\pharmacyinventory\\Core\\Core.csproj",
+  "projectFilePath": "/workspaces/pharmacyinventory/Core/Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
