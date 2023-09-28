@@ -8,5 +8,5 @@ namespace Core.entities.Person;
 public class RolePerson : BaseEntity
 {
     public string Name { get; set; }
-    public ICollection<Person> Persons { get; set; }
+    /* public ICollection<Person> Persons { get; set; } */
 }
