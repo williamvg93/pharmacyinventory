@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\APM02-066\\Documents\\Trowa\\netCore\\pharmacyinventory\\Infrastructure\\Infrastructure.csproj": {}
+    "/workspaces/pharmacyinventory/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
-    "c:\\Users\\APM02-066\\Documents\\Trowa\\netCore\\pharmacyinventory\\Core\\Core.csproj": {
+    "/workspaces/pharmacyinventory/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APM02-066\\Documents\\Trowa\\netCore\\pharmacyinventory\\Core\\Core.csproj",
+        "projectUniqueName": "/workspaces/pharmacyinventory/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "c:\\Users\\APM02-066\\Documents\\Trowa\\netCore\\pharmacyinventory\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\APM02-066\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APM02-066\\Documents\\Trowa\\netCore\\pharmacyinventory\\Core\\obj\\",
+        "projectPath": "/workspaces/pharmacyinventory/Core/Core.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/pharmacyinventory/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM02-066\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,21 +53,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\APM02-066\\Documents\\Trowa\\netCore\\pharmacyinventory\\Infrastructure\\Infrastructure.csproj": {
+    "/workspaces/pharmacyinventory/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APM02-066\\Documents\\Trowa\\netCore\\pharmacyinventory\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "/workspaces/pharmacyinventory/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "c:\\Users\\APM02-066\\Documents\\Trowa\\netCore\\pharmacyinventory\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\APM02-066\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APM02-066\\Documents\\Trowa\\netCore\\pharmacyinventory\\Infrastructure\\obj\\",
+        "projectPath": "/workspaces/pharmacyinventory/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/pharmacyinventory/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM02-066\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -79,8 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\APM02-066\\Documents\\Trowa\\netCore\\pharmacyinventory\\Core\\Core.csproj": {
-                "projectPath": "c:\\Users\\APM02-066\\Documents\\Trowa\\netCore\\pharmacyinventory\\Core\\Core.csproj"
+              "/workspaces/pharmacyinventory/Core/Core.csproj": {
+                "projectPath": "/workspaces/pharmacyinventory/Core/Core.csproj"
               }
             }
           }
@@ -120,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }

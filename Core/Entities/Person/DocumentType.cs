@@ -12,6 +12,7 @@ public class DocumentType : BaseEntity
 }
 
 
+
 /* 
 using System;
 using System.Collections.Generic;
