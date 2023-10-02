@@ -58,4 +58,26 @@ public class CountryController : BaseController
         return CreatedAtAction(nameof(Post), new { id = country.Id }, country);
     }
 
+    [HttpPut("{id}")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<ActionResult<Country>> Put(int id, [FromBody] Country country)
+    {
+        if (country.Id == 0)
+        {
+            country.Id = id;
+        }
+        if (country.Id != id)
+        {
+            return BadRequest();
+        }
+        if (country == null)
+        {
+            return NotFound();
+        }
+        _unitOfWork.Countries.Update(country);
+        await _unitOfWork.SaveAsync();
+        return country;
+    }
+
 }
