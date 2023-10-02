@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Core.entities.Location;
 using Infrastructure.Data;
+using Infrastructure.UnitOfWork;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,18 +12,20 @@ namespace API.Controllers.Location;
 
 public class CountryController : BaseController
 {
-    private readonly PharmaInvenContext _context;
+    private readonly UnitOfWork _unitOfWork;
 
-    public CountryController(PharmaInvenContext context)
+    public CountryController(UnitOfWork unitOfWork)
     {
-        _context = context;
+
+        _unitOfWork = unitOfWork;
     }
+
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<ActionResult<IEnumerable<Country>>> Get()
     {
-        var nameVar = await _context.Countries.ToListAsync();
-        return Ok(nameVar);
+        var countries = await _unitOfWork.Countries.GetAllAsync();
+        return Ok(countries);
     }
 }
