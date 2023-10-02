@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6LeI2DcP66G6LbOogF4rUPx3tfvGPPdsiafShfScnsGAZ9/pPz2e1vccRMTHiPOm8uQQ02u2AoNA7vjO2baMwg==",
+  "dgSpecHash": "VaiG+oSzhJZtwQmmuxj2U4ZiF3v8FMr6ksKTzUY5Wj5ghLhc9YZSF1uKXq9CtVNsZSeksNK2U8TKPepV8Ppgjg==",
   "success": true,
-  "projectFilePath": "/workspaces/pharmacyinventory/Core/Core.csproj",
+  "projectFilePath": "C:\\Users\\APM02-066\\Documents\\Trowa\\netCore\\pharmacyinventory\\Core\\Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
